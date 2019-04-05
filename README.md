@@ -1,2 +1,2 @@
 # CrimeStat.DWH
-Data warehouse project for world crime statistic analysis
+Data warehouse for world crime statistic analysis
