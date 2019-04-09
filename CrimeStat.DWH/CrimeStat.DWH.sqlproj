@@ -62,6 +62,7 @@
     <Folder Include="dwh\" />
     <Folder Include="dwh\Tables\" />
     <Folder Include="Security\" />
+    <Folder Include="dwh\Stored Procedures\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="staging\Tables\WorldBankPopulation_typed.sql" />
@@ -78,5 +79,6 @@
     <Build Include="dwh\Tables\DimCountry.sql" />
     <Build Include="Security\staging.sql" />
     <Build Include="Security\dwh.sql" />
+    <Build Include="dwh\Stored Procedures\usp_DimDate_Populate.sql" />
   </ItemGroup>
 </Project>
