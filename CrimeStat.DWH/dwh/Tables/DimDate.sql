@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dwh].[DimDate] (
-    [DateKey]         INT           NOT NULL,
+    [DimDateKey]      INT           NOT NULL,
     [FullDate]        DATE          NULL,
     [DayOfMonth]      SMALLINT      NULL,
     [DayName]         NVARCHAR (9)  NULL,
@@ -17,6 +17,8 @@
     [HalfYear]        SMALLINT      NULL,
     [HalfYearName]    NVARCHAR (8)  NULL,
     [LeapYear]        BIT           NULL,
-    CONSTRAINT [PK_DateKey] PRIMARY KEY CLUSTERED ([DateKey] ASC)
+    CONSTRAINT [PK_DateKey] PRIMARY KEY CLUSTERED ([DimDateKey] ASC)
 );
+
+
 
