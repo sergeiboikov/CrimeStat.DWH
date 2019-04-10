@@ -3,7 +3,7 @@
     [Region]       NVARCHAR (255)  NULL,
     [SubRegion]    NVARCHAR (255)  NULL,
     [Country]      NVARCHAR (255)  NULL,
-    [Count]        NVARCHAR (255)  NULL,
+    [Count]        NUMERIC (20, 0) NULL,
     [Rate]         NUMERIC (15, 3) NULL,
     [Year]         NVARCHAR (255)  NULL,
     [sysETLrunId]  INT             DEFAULT ((-1)) NULL,
