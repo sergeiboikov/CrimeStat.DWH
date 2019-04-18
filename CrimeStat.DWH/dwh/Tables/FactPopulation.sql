@@ -2,6 +2,8 @@
     [FactPopulationKey] INT      IDENTITY (1, 1) NOT NULL,
     [DimDateKey]        INT      NOT NULL,
     [DimCountryKey]     INT      NOT NULL,
+	[Gender]		    NVARCHAR(6) NULL,
+	[AgeGroup]      NVARCHAR(10) NULL,
     [Population]        BIGINT   NOT NULL,
     [sysETLrunId]       INT      DEFAULT ((-1)) NULL,
     [sysCreatedAt]      DATETIME DEFAULT (getutcdate()) NULL,

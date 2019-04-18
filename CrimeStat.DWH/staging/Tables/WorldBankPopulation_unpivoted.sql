@@ -4,6 +4,8 @@
     [Indicator Name] NVARCHAR (255) NULL,
     [Indicator Code] NVARCHAR (255) NULL,
     [Year]           NVARCHAR (255) NULL,
+	[Gender]           NVARCHAR (255) NULL,
+	[AgeGroup]           NVARCHAR (255) NULL,
     [Population]     BIGINT         NULL,
     [sysETLrunId]    INT            DEFAULT ((-1)) NULL,
     [sysCreatedAt]   DATETIME       DEFAULT (getutcdate()) NULL,

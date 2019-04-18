@@ -3,6 +3,8 @@
     [Country Code]   NVARCHAR (255) NULL,
     [Indicator Name] NVARCHAR (255) NULL,
     [Indicator Code] NVARCHAR (255) NULL,
+	[Gender]		 NVARCHAR (255) NULL,
+	[AgeGroup]	 NVARCHAR (255) NULL,
     [1960]           BIGINT         NULL,
     [1961]           BIGINT         NULL,
     [1962]           BIGINT         NULL,

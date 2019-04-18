@@ -81,4 +81,7 @@
     <Build Include="Security\dwh.sql" />
     <Build Include="dwh\Stored Procedures\usp_DimDate_Populate.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="CrimeStat.DWH.refactorlog" />
+  </ItemGroup>
 </Project>
