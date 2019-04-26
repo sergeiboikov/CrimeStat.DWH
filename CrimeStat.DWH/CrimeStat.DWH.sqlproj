@@ -63,6 +63,8 @@
     <Folder Include="dwh\Tables\" />
     <Folder Include="Security\" />
     <Folder Include="dwh\Stored Procedures\" />
+    <Folder Include="datamart\" />
+    <Folder Include="datamart\Views\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="staging\Tables\WorldBankPopulation_typed.sql" />
@@ -80,6 +82,12 @@
     <Build Include="Security\staging.sql" />
     <Build Include="Security\dwh.sql" />
     <Build Include="dwh\Stored Procedures\usp_DimDate_Populate.sql" />
+    <Build Include="datamart\Views\vw_FactPopulation.sql" />
+    <Build Include="datamart\Views\vw_FactCrime.sql" />
+    <Build Include="datamart\Views\vw_DimDate.sql" />
+    <Build Include="datamart\Views\vw_DimCrimeType.sql" />
+    <Build Include="datamart\Views\vw_DimCountry.sql" />
+    <Build Include="Security\datamart.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="CrimeStat.DWH.refactorlog" />
